@@ -13,7 +13,7 @@ st.set_page_config(page_title="TORSILAB\Home", layout="wide")
 # st.sidebar.divider()
 
 #Define your local image path
-image_path = Path(r"C:\Users\elias\my_python_project\logo.png")
+image_path = Path("logo.png")
 
 #Read the image and encode it to base64
 try:
